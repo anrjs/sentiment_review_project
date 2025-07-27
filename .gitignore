@@ -27,3 +27,6 @@ venv/
 # 🚫 시스템 파일
 Thumbs.db
 desktop.ini
+
+dataset/Hotel_Reviews.csv
+dataset/Hotel_Reviews_CLEAN.csv
