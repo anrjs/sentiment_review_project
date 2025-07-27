@@ -102,6 +102,23 @@ Confusion Matrix:
 [[66846  5671]
  [ 6243 88367]]
 
+## 📊 주요 인사이트
+
+본 프로젝트는 호텔 리뷰 데이터를 바탕으로 감성 분석을 수행하였으며, Logistic Regression 모델을 통해 다음과 같은 인사이트를 도출했습니다:
+
+- **부정 리뷰 인사이트**
+  - `rude`, `poorly`, `disappointing` 등은 직원 태도와 서비스에 대한 불만을 반영
+  - `noisy`, `small`, `limited` 등은 시설 및 공간 제약에 대한 지적
+  - `expensive`, `not`, `lack` 등은 가격 대비 낮은 만족도를 의미
+
+- **긍정 리뷰 인사이트**
+  - `friendly`, `helpful` 등은 친절한 서비스에 대한 긍정적 평가
+  - `clean`, `comfortable`, `quiet` 등은 청결하고 쾌적한 환경에 대한 만족
+  - `location`, `convenient`, `stylish` 등은 입지 조건과 디자인에 대한 호평
+
+이러한 결과는 향후 서비스 개선 및 마케팅 전략 수립에 직접적인 참고가 될 수 있습니다.
+상세 분석결과 및 인사이트는 train_tfidf.ipynb에 Markdown으로 제공되어 있습니다.
+
 💡 향후 계획
 bert_model/train_bert.ipynb 내에서 BERT 기반 분류 모델 학습 예정
 
