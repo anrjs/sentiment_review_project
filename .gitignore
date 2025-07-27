@@ -1,0 +1,29 @@
+# 🐍 Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# 🔬 Jupyter Notebook 체크포인트
+.ipynb_checkpoints/
+
+# 📦 가상환경
+venv/
+.env/
+
+# 📂 VSCode 설정
+.vscode/
+*.code-workspace
+
+# 📁 데이터 파일 (예: 중간 결과, 로그 등) → 필요시 수정
+*.log
+*.tmp
+*.bak
+
+# 🧪 테스트/실험 파일
+*.DS_Store
+*.egg-info/
+
+# 🚫 시스템 파일
+Thumbs.db
+desktop.ini
